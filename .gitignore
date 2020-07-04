@@ -1,0 +1,7 @@
+target/
+test-output/
+/.settings/
+/.classpath
+/.project
+# Avoid ignoring Maven wrapper jar file (.jar files are usually ignored)
+/bin/
