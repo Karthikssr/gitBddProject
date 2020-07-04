@@ -29,7 +29,7 @@ public class hooks {
         System.setProperty("webdriver.chrome.driver","./Drivers/chromedriver_32.exe");
             System.setProperty("webdriver.chrome.silentOutput", "true");
             ChromeOptions options = new ChromeOptions();
-//            options.setHeadless(true);
+            options.setHeadless(true);
             WebDriver driver = new ChromeDriver(options);
             driver.manage().window().maximize();
             driverFactory.addDriver(driver);
