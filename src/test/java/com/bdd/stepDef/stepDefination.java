@@ -46,7 +46,7 @@ public class stepDefination {
 		System.out.println("Print5");
 		driver.findElement(By.xpath("//li[@class='nav-main-item']//button[@data-track-name = 'Invest']")).click();
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("(//a[text()='Managed Portfolios'])[1]")).click();
+		driver.findElement(By.xpath("(//a[text()='Managed Portfolios'])[2]")).click();
 	}
 
 	@Then("I am navigated to Managed Portfolio Page")
