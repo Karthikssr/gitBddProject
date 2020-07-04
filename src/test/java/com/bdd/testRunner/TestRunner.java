@@ -9,7 +9,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 
 @CucumberOptions(
-        features = {"src/test/resources/feature/file1.feature"}
+        features = {"src/test/resources/feature/file.feature"}
         ,glue = {"com.bdd.stepDef"}
         ,plugin= {"com.bdd.utils.ExtentReportListener",
         		"json:target/cucumber-report/cucumber.json"
